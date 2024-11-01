@@ -21,5 +21,21 @@ public class queue {
             rear = node;
         }
     }
+    public void dequeue(){
+        if (front == null){
+            System.out.println("Queue is empty");
+        }else{
+            front = front.getNext();
+        }
+    }
+
+    public int peek(){
+        if (front == null){
+            System.out.println("Queue is empty");
+            return 0;
+        }else{
+            return front.getData();
+        }
+    }
     
 }
