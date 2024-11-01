@@ -1,4 +1,4 @@
-public class queue2 {
+public class queueWarray {
         private int maxSize;
         private int[] arr;
         private int front;
