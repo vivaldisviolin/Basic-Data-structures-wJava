@@ -37,5 +37,14 @@ public class queue {
             return front.getData();
         }
     }
+
+    public void display(){
+        Node current = front;
+        while (current != null){
+            System.out.print(current.getData() + " ");
+            current = current.getNext();
+        }
+        System.out.println();
+    }
     
 }
