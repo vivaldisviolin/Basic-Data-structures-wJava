@@ -1,7 +1,7 @@
 package structure;
 
 
-public class queue {
+public class queueWnodes {
     private Node front;
     private Node rear;
 
